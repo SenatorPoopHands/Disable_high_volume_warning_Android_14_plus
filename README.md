@@ -10,7 +10,8 @@ Users can increase the volume to a maximum of 100dB by accepting the warning, ye
 <br>
 This Magisk module sets the build.prop 'audio.safemedia.bypass' to status 'true' to disable that warning.</div>
 <br>
+<h1>Fork Additions</h1>
 <br>
-Additionally, this fork of the module address the Android 14+ more aggressive version of this. Gets rid of the automatic volume lowering and 'Volume lowered to a safer level' message that happens after 5 minutes of playing at max volume. 
+Additionally sets 'audio.safemedia.force' to false and'audio.safemedia.csd.force' to false in order to address the Android 14+ automatic volume lowering and 'Volume lowered to a safer level' message that happens after 5 minutes of playing at max volume. 
 <br>
-Addressing the changes highlighted in this article: https://www.androidpolice.com/android-14-headphone-loud-sound-alert/
+The changes are highlighted in this article: https://www.androidpolice.com/android-14-headphone-loud-sound-alert/
