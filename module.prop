@@ -1,7 +1,7 @@
-id=Disable_high_volume_warning_and_auto_lowering
-name=Disable high volume warning and auto lowering
+id=Disable_auto_volume_lowering
+name=Disable auto volume lowering
 version=v1.00
 versionCode=1
 author=onimorza and SenatorPoopHands
-description=Magisk module that sets 'audio.safemedia.bypass=true', 'audio.safemedia.force=false' and 'audio.safemedia.csd.force=false' to disable the warning and auto lowering when playing the volume above a certain level.
+description=Disables auto volume lowering when playing the volume above a certain level.
 updateJson=
